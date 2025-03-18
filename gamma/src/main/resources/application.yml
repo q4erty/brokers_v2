@@ -1,0 +1,9 @@
+server:
+  port: 8000
+
+spring:
+  rabbitmq:
+    host: ${GOOGLE_SERVER}
+    port: 5672
+    username: user
+    password: password

@@ -1,0 +1,8 @@
+CREATE SCHEMA IF NOT EXISTS beta;
+
+CREATE TABLE IF NOT EXISTS beta.users
+(
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL
+);
